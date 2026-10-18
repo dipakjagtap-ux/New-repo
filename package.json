@@ -1,0 +1,14 @@
+{
+  "name": "security-scan-pr-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable fixtures for authorized security scanner validation. Do not deploy.",
+  "scripts": {
+    "start": "node src/vulnerable-demo.js"
+  },
+  "dependencies": {
+    "axios": "0.21.0",
+    "lodash": "4.17.15",
+    "minimist": "1.2.5"
+  }
+}
