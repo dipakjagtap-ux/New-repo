@@ -1,0 +1,20 @@
+{
+  "name": "security-scan-findings-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test repository for dependency vulnerability scanning",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "minimist": "1.2.5",
+    "axios": "0.21.0",
+    "handlebars": "4.5.3",
+    "jsonwebtoken": "8.5.1",
+    "node-fetch": "2.6.0",
+    "serialize-javascript": "3.0.0",
+    " qs": "6.5.2"
+  }
+}
